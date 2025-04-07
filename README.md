@@ -7,3 +7,6 @@ in how you move based on if the soul is red or blue
 I'm honestley really proud of just doing this as a whole. I never really had the motivation to do something and never considered working with AI.
 If I had more time I honestly would want to fully recreate the Boss Fight
 You can view my project here: https://scratch.mit.edu/projects/1158464631/
+
+Embedded link if it works:
+<iframe src="https://scratch.mit.edu/projects/1158464631/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
