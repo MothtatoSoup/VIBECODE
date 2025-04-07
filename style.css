@@ -1,74 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000;
-    color: white;
-  }
-  
-  .game-container {
-    position: relative;
-    width: 600px;
-    height: 400px;
-    border: 2px solid white;
-    background-color: black;
-  }
-  
-  .player {
-    width: 30px;
-    height: 30px;
-    background-color: #00f;
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translateX(-50%);
-  }
-  
-  .sans {
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .health-bar {
-    position: absolute;
-    height: 10px;
-    width: 200px;
-    top: 5px;
-    background-color: red;
-  }
-  
-  #player-health {
-    left: 20px;
-  }
-  
-  #sans-health {
-    right: 20px;
-    background-color: blue;
-  }
-  
-  button {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:disabled {
-    background-color: #666;
-  }
+/* style.css */
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+
+canvas {
+  border: 1px solid white;
+  background-color: black;
+}
